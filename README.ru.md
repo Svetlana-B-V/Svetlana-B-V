@@ -21,32 +21,42 @@
 
 ## 🎯 Обо мне
 
-<img align="right" width="37%" src="./workspace.jpg" alt="Foxy Coding Workspace" />
+<img align="right" width="36%" src="./workspace.jpg" alt="Foxy Coding Workspace" />
 
-- 🔭 **Статус:** Открыта к интересным проектам, хакатонам и командной разработке
-- 🌱 **Фокус:** Экосистема React/TypeScript, бэкенд на FastAPI и модели машинного обучения
-- 💬 **Сфера интересов:** Фронтенд-архитектура, интерактивный UI/UX, умные боты и Data Science
-- ⚡ **Забавный факт:** *99 багов в коде, один исправили — осталось 127 багов в коде* 🐛
+<div align="left">
+  <img src="https://img.shields.io/badge/🦊_Статус-Открыта_к_проектам_и_хакатонам-4A2C1A?style=flat-square&labelColor=A35C1E" />
+  <img src="https://img.shields.io/badge/☕_Заряд-Тёплый_кофе_и_чистый_UI-D99A4E?style=flat-square&labelColor=4A2C1A" />
+</div>
 
-```ts
-const foxy = {
+- 🔭 **Сейчас создаю:** Интерактивные веб-дашборды, умных ботов и ML-модели
+- 🌱 **Углубляюсь в:** Экосистему React/TypeScript и архитектуру на FastAPI
+- 💬 **Сфера интересов:** Фронтенд-разработка, микроанимации UI, Python и Data Science
+- ⚡ **Забавный факт:** *99 багов в коде, один исправили — осталось ещё 127 :)* 🐛
+
+```tsx
+// 🦊 foxy.config.ts — Конфигурация профиля разработчика
+interface FoxyDeveloper {
+  readonly name: string;
+  readonly handle: "@Svetlana-B-V";
+  role: string[];
+  stack: Record<"frontend" | "backend" | "dataScience", string[]>;
+  currentQuest: string;
+}
+
+export const foxy: FoxyDeveloper = {
   name: "Светлана",
-  handle: "Svetlana-B-V",
-  role: "Fullstack-разработчица | Исследователь ИИ и ML",
-  building: [
-    "Интерактивные веб-приложения и дашборды",
-    "Умные боты и быстрые REST API",
-    "Пайплайны анализа данных и ML"
-  ],
-  tech: {
-    frontend: ["React", "TypeScript", "JS", "Tailwind", "CSS"],
-    backend: ["Python", "FastAPI", "PHP"],
-    ml: ["Pandas", "NumPy", "Scikit-Learn", "CatBoost"]
-  }
+  handle: "@Svetlana-B-V",
+  role: ["Fullstack-разработчица", "UI/UX энтузиаст", "Исследователь ИИ и ML"],
+  stack: {
+    frontend: ["React", "TypeScript", "JavaScript", "TailwindCSS"],
+    backend:  ["Python", "FastAPI", "PHP", "REST API"],
+    dataScience: ["Pandas", "NumPy", "Scikit-Learn", "CatBoost"]
+  },
+  currentQuest: "Превращаю сложные идеи в эстетичные и быстрые веб-приложения ✨"
 };
 ```
 
-> *«Чистый код всегда выглядит так, будто его написал человек, которому не всё равно — особенно в сочетании с продуманным UI и чашкой тёплого кофе».*
+> 💬 *«Чистый код всегда выглядит так, будто его написал человек, которому не всё равно — особенно в сочетании с продуманным UI и чашкой тёплого кофе».*
 
 <br clear="both"/>
 
@@ -118,7 +128,7 @@ const foxy = {
 
 <div align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Svetlana-B-V&theme=gruvbox" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Svetlana-B-V&background=282828&border=4A2C1A&stroke=4A2C1A&ring=D99A4E&fire=A35C1E&currStreakLabel=EBCB9C&sideLabels=EBCB9C&currStreakNum=FFF3E0&sideNums=FFF3E0&dates=D99A4E" alt="GitHub Streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Svetlana-B-V&theme=gruvbox&utcOffset=3" alt="Productive Time" />
 </div>
 
 ---
@@ -135,7 +145,7 @@ const foxy = {
 <br/>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Svetlana-B-V&bg_color=1a110b&color=EBCB9C&line=D99A4E&point=FFF3E0&area=true&area_color=A35C1E&hide_border=false&border_color=4A2C1A" alt="Contribution Graph" />
+  <img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=Svetlana-B-V&background=282828&border=4A2C1A&stroke=4A2C1A&ring=D99A4E&fire=A35C1E&currStreakLabel=EBCB9C&sideLabels=EBCB9C&currStreakNum=FFF3E0&sideNums=FFF3E0&dates=D99A4E" alt="GitHub Streak" />
 </div>
 
 <div align="center">
