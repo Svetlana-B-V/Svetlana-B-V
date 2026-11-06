@@ -8,15 +8,8 @@
 </div>
 
 <div align="center">
-  <img src="./banner.jpg" alt="Svetlana (Foxy) Banner" width="100%" style="border-radius: 12px;" />
+  <img src="./banner.jpg" alt="Svetlana (Foxy) Banner" width="100%" />
 </div>
-
-<!-- If you prefer an animated SVG wave instead of banner.jpg, uncomment the block below: -->
-<!--
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,14,19&height=210&section=header&text=SVETLANA%20(FOXY)%20🦊&fontSize=42&fontColor=FFF3E0&animation=fadeIn&fontAlignY=35&desc=Frontend%20%26%20Fullstack%20Developer%20%7C%20AI%20%26%20ML%20Enthusiast&descAlignY=58&descSize=18" width="100%" />
-</div>
--->
 
 <div align="center">
   <a href="https://git.io/typing-svg">
@@ -28,41 +21,44 @@
 
 ## 🎯 About Me
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
+<img align="right" width="36%" src="./workspace.jpg" alt="Foxy Coding Workspace" />
 
-- 🔭 **Status:** Open to exciting projects, hackathons & collaborations
-- 🌱 **Currently focusing on:** React/TypeScript ecosystems, FastAPI backends & ML pipelines
-- 💬 **Ask me about:** Frontend architecture, interactive UI animations, Python bots & Data Science
+<div align="left">
+  <img src="https://img.shields.io/badge/🦊_Status-Open_to_Projects_&_Hackathons-4A2C1A?style=flat-square&labelColor=A35C1E" />
+  <img src="https://img.shields.io/badge/☕_Fuel-Warm_Coffee_&_Clean_UI-D99A4E?style=flat-square&labelColor=4A2C1A" />
+</div>
+
+- 🔭 **Currently building:** Interactive web dashboards, smart bots & ML models
+- 🌱 **Deepening knowledge in:** React/TypeScript ecosystems & FastAPI architecture
+- 💬 **Ask me about:** Frontend engineering, UI micro-animations, Python & Data Science
 - ⚡ **Fun fact:** *99 little bugs in the code, take one down, patch it around, 127 little bugs in the code* 🐛
 
-```ts
-const foxy = {
-  name: "Светлана",
-  handle: "Svetlana-B-V",
-  role: "Fullstack-разработчица | Исследователь ИИ и ML",
-  building: [
-    "Интерактивные веб-приложения и дашборды",
-    "Умные боты и быстрые REST API",
-    "Пайплайны анализа данных и ML"
-  ],
-  tech: {
-    frontend: ["React", "TypeScript", "JavaScript", "TailwindCSS", "HTML/CSS"],
-    backend: ["Python", "FastAPI", "PHP"],
-    dataScience: ["Pandas", "NumPy", "Scikit-Learn", "CatBoost", "Matplotlib"]
-  }
+```tsx
+// 🦊 foxy.config.ts — Developer Profile Configuration
+interface FoxyDeveloper {
+  readonly name: string;
+  readonly handle: "@Svetlana-B-V";
+  role: string[];
+  stack: Record<"frontend" | "backend" | "dataScience", string[]>;
+  currentQuest: string;
+}
+
+export const foxy: FoxyDeveloper = {
+  name: "Svetlana",
+  handle: "@Svetlana-B-V",
+  role: ["Fullstack Developer", "UI/UX Enthusiast", "AI & ML Explorer"],
+  stack: {
+    frontend: ["React", "TypeScript", "JavaScript", "TailwindCSS"],
+    backend:  ["Python", "FastAPI", "PHP", "REST API"],
+    dataScience: ["Pandas", "NumPy", "Scikit-Learn", "CatBoost"]
+  },
+  currentQuest: "Turning complex ideas into aesthetic, high-speed web apps ✨"
 };
 ```
 
-> *"Clean code always looks like it was written by someone who cares — especially when paired with a warm cup of coffee and great UI."*
+> 💬 *"Clean code always looks like it was written by someone who cares — especially when paired with a warm cup of coffee and great UI."*
 
-</td>
-    <td width="38%" valign="middle" align="center">
-      <img src="./workspace.jpg" alt="Foxy Coding Workspace" width="100%" style="border-radius: 12px;" />
-    </td>
-  </tr>
-</table>
+<br clear="both"/>
 
 ---
 
@@ -131,18 +127,27 @@ const foxy = {
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Svetlana-B-V&show_icons=true&bg_color=1a110b&title_color=D99A4E&icon_color=A35C1E&text_color=FFF3E0&border_color=4A2C1A&ring_color=D99A4E" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Svetlana-B-V&background=1a110b&border=4A2C1A&stroke=4A2C1A&ring=D99A4E&fire=A35C1E&currStreakLabel=EBCB9C&sideLabels=EBCB9C&currStreakNum=FFF3E0&sideNums=FFF3E0&dates=D99A4E" alt="GitHub Streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Svetlana-B-V&theme=gruvbox" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Svetlana-B-V&theme=gruvbox&utcOffset=3" alt="Productive Time" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements & Streak
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Svetlana-B-V&theme=gruvbox&no-frame=false&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" width="100%" />
+  <img src="https://img.shields.io/badge/🏆_Active_Committer-4A2C1A?style=for-the-badge&labelColor=2A180E&logoColor=D99A4E" />
+  <img src="https://img.shields.io/badge/⭐_Hackathon_Builder-A35C1E?style=for-the-badge&labelColor=4A2C1A&logoColor=FFF3E0" />
+  <img src="https://img.shields.io/badge/🔥_Multi--Language_Coder-D99A4E?style=for-the-badge&labelColor=4A2C1A&logoColor=FFF3E0" />
+  <img src="https://img.shields.io/badge/🚀_Fullstack_&_AI-EBCB9C?style=for-the-badge&labelColor=4A2C1A&logoColor=4A2C1A" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=Svetlana-B-V&background=282828&border=4A2C1A&stroke=4A2C1A&ring=D99A4E&fire=A35C1E&currStreakLabel=EBCB9C&sideLabels=EBCB9C&currStreakNum=FFF3E0&sideNums=FFF3E0&dates=D99A4E" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,14,19&height=90&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A2C1A,35:A35C1E,70:D99A4E,100:EBCB9C&height=90&section=footer" width="100%" />
 </div>
